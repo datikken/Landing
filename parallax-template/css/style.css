@@ -76,3 +76,8 @@ footer.page-footer {
   display: inline;
   margin: 25px!important;
 }
+
+.maps {
+  display: grid;
+  justify-content: center;
+}

@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
 </head>
 <body>
   <nav class="black" role="navigation">
@@ -100,6 +101,21 @@
       </div>
     </div>
   </div>
+          <!-- Maps -->
+          <div class="maps">
+            <div id="map" style="width:50vw; height:50vh"></div>
+            </div>
+            <script type="text/javascript">
+              var map;
+          
+              DG.then(function () {
+                  map = DG.map('map', {
+                      center: [54.72, 20.52],
+                      zoom: 13
+                  });
+              });
+          </script>
+    
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -110,6 +126,7 @@
     </div>
     <div class="parallax"><img src="background3.svg" alt="Unsplashed background img 3"></div>
   </div>
+
 <!-- Footer -->
   <footer class="page-footer black">
     <div class="container">
@@ -125,8 +142,8 @@
         <div class="col l3 s12">
           <h5 class="white-text">Полезные ссылки:</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" target="blank" href="https://www.waves.com/courses/demo-to-master?clickid=1kh0O3UbYzq1QewUbd29I0HbUkgW1rSxgxwWUE0&irgwc=1&utm_medium=1337228&utm_campaign=Online%20Tracking%20Link&utm_source=ir">From Demo to Master (Waves)</a></li>
+            <li><a class="white-text" target="blank" href="http://www.audiolegends.com/cla-mixing-course-1/">Chris Lord Alge (Waves)</a></li>
           </ul>
         </div>
       </div>
