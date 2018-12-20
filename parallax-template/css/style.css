@@ -78,5 +78,8 @@ footer.page-footer {
 .maps {
   display: grid;
   justify-content: center;
+<<<<<<< HEAD
   height: 200px;
+=======
+>>>>>>> 50bfacb658bcb34bbf829692cea654f83149046f
 }
