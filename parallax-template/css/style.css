@@ -10,7 +10,6 @@
   font-family: 'Oswald', sans-serif;
 }
 
-
 nav ul a,
 nav .brand-logo {
   color: #ff0000 !important;
@@ -82,4 +81,5 @@ h1{
   font-size:72px;
   font-family:'Verdana';
   padding:30px;
+  color: #ff0000;
 }
